@@ -30,17 +30,6 @@ h7 {
   font-family: "Questrial", serif;
 }
 
-//   .md-app-toolbar {
-//     box-shadow: none!important;
-//     background-color: white!important;
-//   }
-
-// .sub-items {
-//   li:nth-child(even) {
-//     list-style-type: none;
-//   }
-// }
-
 // Intro section styles
 .intro-text,
 .about-text {
@@ -55,11 +44,20 @@ h7 {
 }
 
 .intro-text {
-  max-width: 550px;
+  max-width: 380px;
+  padding-top: 100px;
+
+  @media only screen and (min-width: 640px) {
+    max-width: 550px;
+  }
 }
 
 .about-text {
-  max-width: 700px;
+  max-width: 380px;
+
+  @media only screen and (min-width: 640px) {
+    max-width: 700px;
+  }
 }
 
 .accent-text {
