@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+@import url(https://fonts.googleapis.com/css?family=Material+Icons);
+
+$primary-charcoal: #36384c;
+$primary-fresh: #849974;
+$primary-burgundy: #613a43;
+$accent-petal: #e3bab3;
+$accent-cream: #e9dccd;
+$secondary-text: rgba(0, 0, 0, 0.54);
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+}
+
+a {
+  color: $primary-fresh !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+  font-family: "Questrial", serif;
+}
+
+//   .md-app-toolbar {
+//     box-shadow: none!important;
+//     background-color: white!important;
+//   }
+
+// .sub-items {
+//   li:nth-child(even) {
+//     list-style-type: none;
+//   }
+// }
+
+// Intro section styles
+.intro-text,
+.about-text {
+  margin: 0 auto;
+  text-align: center;
+  color: $secondary-text;
+
+  h1,
+  h2 {
+    font-weight: 300;
+  }
+}
+
+.intro-text {
+  max-width: 550px;
+}
+
+.about-text {
+  max-width: 700px;
+}
+
+.accent-text {
+  color: $primary-burgundy;
+  font-weight: 400;
+}
+
+//Portfolio styles
+.portfolio-item {
+  min-height: 400px;
+  display: grid;
+
+  .portfolio-inner {
+    place-self: center;
+  }
+
+  &:nth-child(1) {
+    background-color: $accent-cream;
+    &:hover {
+      background-color: darken($accent-cream, 10%);
+    }
+  }
+  &:nth-child(2) {
+    background-color: $primary-charcoal;
+    color: white;
+    &:hover {
+      background-color: lighten($primary-charcoal, 10%);
+    }
+  }
+  &:nth-child(3) {
+    background-color: $primary-fresh;
+    color: white;
+    &:hover {
+      background-color: darken($primary-fresh, 10%);
+    }
+  }
+  &:nth-child(4) {
+    background-color: $accent-petal;
+    &:hover {
+      background-color: darken($accent-petal, 10%);
+    }
+  }
+}
