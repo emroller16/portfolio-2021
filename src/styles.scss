@@ -17,7 +17,7 @@ body {
 }
 
 a {
-  color: $primary-fresh !important;
+  color: $primary-fresh;
 }
 
 h1,
@@ -60,6 +60,11 @@ h7 {
   }
 }
 
+.headline {
+  font-size: 24px;
+  line-height: 32px;
+}
+
 .accent-text {
   color: $primary-burgundy;
   font-weight: 400;
@@ -72,10 +77,16 @@ h7 {
 
   .portfolio-inner {
     place-self: center;
+    width: 290px;
   }
 
   &:nth-child(1) {
     background-color: $accent-cream;
+
+    a {
+      color: black;
+    }
+
     &:hover {
       background-color: darken($accent-cream, 10%);
     }
@@ -83,6 +94,11 @@ h7 {
   &:nth-child(2) {
     background-color: $primary-charcoal;
     color: white;
+
+    a {
+      color: white;
+    }
+
     &:hover {
       background-color: lighten($primary-charcoal, 10%);
     }
@@ -90,12 +106,21 @@ h7 {
   &:nth-child(3) {
     background-color: $primary-fresh;
     color: white;
+
+    a {
+      color: white;
+    }
     &:hover {
       background-color: darken($primary-fresh, 10%);
     }
   }
   &:nth-child(4) {
     background-color: $accent-petal;
+
+    a {
+      color: black;
+    }
+
     &:hover {
       background-color: darken($accent-petal, 10%);
     }

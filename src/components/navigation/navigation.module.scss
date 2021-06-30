@@ -1,0 +1,28 @@
+.container {
+  padding: 24px;
+  display: flex;
+  max-width: 1240px;
+  margin: 0 auto;
+
+  .left {
+    flex: 1 1 auto;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+  }
+
+  .right {
+    flex: 1 1 auto;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+    text-align: right;
+  }
+}
+
+.nav-item {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 16px;
+  padding: 16px 0px;
+}
