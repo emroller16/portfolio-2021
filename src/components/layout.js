@@ -2,7 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import { Helmet } from 'react-helmet';
-import Navigation from './/./navigation/navigation'
+// import Navigation from './/./navigation/navigation'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -22,14 +22,14 @@ const Layout = ({ children }) => (
     render={data => (
       <React.Fragment>
         <Helmet
-          title={'title'}
+          title={'Emily Roller'}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'A portfolio site for Emily Roller' },
+            { name: 'keywords', content: 'web design, design system, design systems, ux, user experience, front end development, portfolio, emily, roller' },
           ]}
         >
         </Helmet>
-        <Navigation menuLinks={data.site.siteMetadata.menuLinks} />
+        {/* <Navigation menuLinks={data.site.siteMetadata.menuLinks} /> */}
         {children}
       </React.Fragment>
     )}

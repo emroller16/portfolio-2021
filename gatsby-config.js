@@ -1,6 +1,20 @@
 module.exports = {
   siteMetadata: {
     title: "Emily Roller",
+    menuLinks: [
+      {
+        name: 'home',
+        link: '/'
+      },
+      {
+        name: 'work',
+        link: '/work'
+      },
+      {
+        name: 'resume',
+        link: '/resume'
+      }
+    ]
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -14,6 +28,7 @@ module.exports = {
       },
     },
     "gatsby-plugin-mdx",
+    "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {

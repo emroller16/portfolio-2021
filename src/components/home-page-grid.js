@@ -12,25 +12,25 @@ export default class HomePageGrid extends Component {
         {
           name: 'Tyler Forge Design System',
           type: 'Design Systems',
-          link: '/forge-ds',
-          status: 'Coming soon!',
+          link: 'https://www.figma.com/file/PA1EYBIiZMFsyNvgsGuZAH/portfolio-2021?node-id=4%3A284',
+          // status: 'Coming soon!',
         },
         {
-          name: 'Katie Arnold Photography',
-          type: 'Web Design',
-          link: '/katie-arnold',
-          status: 'Coming soon!',
+          name: 'Design Subsystems',
+          type: 'Design Systems',
+          link: 'https://www.figma.com/file/PA1EYBIiZMFsyNvgsGuZAH/portfolio-2021?node-id=101%3A147',
+          // status: 'Coming soon!',
         },
         {
-          name: 'Cru at UConn',
-          type: 'Web Design',
-          link: '/cru-uconn',
-          status: 'Coming soon!',
+          name: 'Team processes',
+          type: 'Organization / process',
+          link: 'https://www.figma.com/file/PA1EYBIiZMFsyNvgsGuZAH/portfolio-2021?node-id=101%3A119',
+          // status: 'Coming soon!',
         },
         {
           name: 'A case in meta: Portfolio',
           type: 'Web development',
-          link: '/portoflio',
+          link: 'https://www.figma.com/file/PA1EYBIiZMFsyNvgsGuZAH/portfolio-2021?node-id=115%3A187',
           status: 'Coming soon!',
         },
       ]
@@ -46,6 +46,7 @@ export default class HomePageGrid extends Component {
               <div className="portfolio-inner">
                 <p>{d.type}</p>
                 <p className={styles.headline}>{d.name}</p>
+                <a href={d.link} target="_blank" rel="noreferrer noopener">Read more</a>
                 <p>{d.status}</p>
               </div>
             </div>
