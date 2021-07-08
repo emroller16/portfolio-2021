@@ -12,26 +12,26 @@ export default class HomePageGrid extends Component {
         {
           name: 'Tyler Forge Design System',
           type: 'Design Systems',
-          link: 'https://www.figma.com/file/PA1EYBIiZMFsyNvgsGuZAH/portfolio-2021?node-id=4%3A284',
+          link: 'https://www.figma.com/file/gypKJeGAe49YQxQ84EWojH/portfolio-2021?node-id=4%3A284',
           // status: 'Coming soon!',
         },
         {
-          name: 'Design Subsystems',
+          name: 'Design System 2.0',
           type: 'Design Systems',
-          link: 'https://www.figma.com/file/PA1EYBIiZMFsyNvgsGuZAH/portfolio-2021?node-id=101%3A147',
+          link: 'https://www.figma.com/file/gypKJeGAe49YQxQ84EWojH/portfolio-2021?node-id=7%3A261',
           // status: 'Coming soon!',
         },
         {
           name: 'Team processes',
           type: 'Organization / process',
-          link: 'https://www.figma.com/file/PA1EYBIiZMFsyNvgsGuZAH/portfolio-2021?node-id=101%3A119',
+          link: 'https://www.figma.com/file/gypKJeGAe49YQxQ84EWojH/portfolio-2021?node-id=101%3A119',
           // status: 'Coming soon!',
         },
         {
           name: 'A case in meta: Portfolio',
           type: 'Web development',
-          link: 'https://www.figma.com/file/PA1EYBIiZMFsyNvgsGuZAH/portfolio-2021?node-id=115%3A187',
-          status: 'Coming soon!',
+          link: 'https://www.figma.com/file/gypKJeGAe49YQxQ84EWojH/portfolio-2021?node-id=115%3A187',
+          // status: 'Coming soon!',
         },
       ]
     }
