@@ -19,7 +19,6 @@ export default class HomePageGrid extends Component {
           name: 'Design System 2.0',
           type: 'Design Systems',
           link: 'https://www.figma.com/proto/gypKJeGAe49YQxQ84EWojH/Emily's-Portfolio?node-id=831%3A2299&scaling=contain&page-id=7%3A261&starting-point-node-id=831%3A2299',
-          // status: 'Coming soon!',
         },
         {
           name: 'Team processes',
